@@ -4,16 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <input type="text" id="cityName" />
+
+    <header class="d-flex align-content-center justify-content-center bg-primary">
+      <h2>Weather App</h2>
+    </header>
+    <br>
+    
+
+    <div class="  text-center">
+      <input type="text" id="cityName" />
     <button onclick="getWeather()">Get Weather</button>
+    </div>
 
     <br />
 
-    <div>
+    <div class="text-center">
       <label>Temp : <span id="Temperature">30</span>ºC</label>
     </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
     <script src="./weather.js"></script>
   </body>
 </html>
